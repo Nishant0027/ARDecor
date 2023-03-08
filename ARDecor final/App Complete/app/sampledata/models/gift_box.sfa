@@ -1,0 +1,69 @@
+{
+  materials: [
+    {
+      name: '_11563_gift_box_V311563_gift_box_Blue',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.070599999999999996,
+            0.20000000000000001,
+            0.29020000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.27216600000000002,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '_11563_gift_box_V311563_gift_box_White',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.93330000000000002,
+            0.93330000000000002,
+            0.93330000000000002,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.342997,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/gift_box.obj',
+    name: 'gift_box',
+    recenter: 'root',
+    scale: 0.02
+  },
+  version: '0.54:2',
+}
